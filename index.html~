@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google "sort of"</title>
+<style>
+img {
+   display: block;
+   margin: auto;
+   width: 40%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+li {
+  display: inline;
+  float: right;
+}
+input [type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+form {
+   display: block;
+   margin: auto;
+   width: 40%
+}
+footer {
+    text-align: center;
+}
+#right {
+   float: right;
+}
+</style>
+</head>
+<body>  
+<ul>  
+    <li><a href="#home">Home</a></li>  
+    <li><a href="#news">News</a></li>
+  </ul>  
+  
+ <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/GoogleChangedLogo.jpg" width="457" height="313" />
+
+
+<form>
+  <input type="text" name="search" placeholder="search..">
+</form>
+
+
+
+
+<footer>Google "sort of" <span id="right">terms about setting</span></footer>
+</body>
+</html>
