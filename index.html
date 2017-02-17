@@ -2,54 +2,52 @@
 <html>
 <head>
   <title>Google "sort of"</title>
-<style>
-img {
-   display: block;
-   margin: auto;
-   width: 40%;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
-}
-li {
-  display: inline;
-  float: right;
-}
-input [type=text] {
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-}
-form {
-   display: block;
-   margin: auto;
-   width: 40%
-}
-footer {
-    text-align: center;
-}
-#right {
-   float: right;
-}
-</style>
+  <link type="text/css" rel="stylesheet" href="gstyle.css">
 </head>
 <body>  
-<ul>  
-    <li><a href="#home">Home</a></li>  
-    <li><a href="#news">News</a></li>
-  </ul>  
-  
- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/GoogleChangedLogo.jpg" width="457" height="313" />
 
-
+<ul class="nav">  
+  <li>
+    <a id="nav-button" href="#">Sign in</a>  
+  </li>
+  <li>
+    <a href="#">Images</a>  
+  </li>
+  <li>
+    <a href="#">Gmail</a>  
+  </li>
+  <div class="main-elements">
+ <img id="logo" src="https://jhforster.github.io/fake-google-homepage/assets/google-logo.png"/>
+<div class="search">
 <form>
-  <input type="text" name="search" placeholder="search..">
+  <input class="form" autofocus="" type="text" name="search" placeholder="search..">
+  <div id="buttons">
+<input id="button" value="google search" type="submit">
+<input id="button" value="I'm feeling lucky" type="submit">  
+  </div>
 </form>
-
-<footer>Google "sort of" <span id="right">terms about setting</span></footer>
+<div class="footer">
+<ul>
+  <li id="footer_left">
+   <a href="#">Advertising</a>
+  </li>
+  <li id="footer_left">
+   <a href="#">News</a>
+  </li>
+   <li id="footer_left">   
+   <a href="#">About</a>  
+  </li>
+</ul>
+<ul>
+  <li id="footer_right">
+    <a href"#">Settings</a>  
+  </li>
+  <li id="footer_right">
+    <a href="#">Business</a>  
+  </li>
+  <li id="footer_right">
+    <a href="#">Terms</a>  
+  </li>
+</ul>
 </body>
 </html>
